@@ -1,11 +1,11 @@
 ---
-title: 'Services'
-description: 'We offer a range of services to help your business'
+title: 'Servicios'
+description: 'Descubre los servicios que los Kuates le ofrecen a tu startup: consultoría, diseño y desarrollo de MVP y MMP'
 intro_image: "images/illustrations/reading.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: false
 ---
 
-# Services that grow with your business
+# Nuestros servicios
 
-Aliquam erat volutpat. Morbi nisl tortor, dignissim eget efficitur vel, auctor non felis. Fusce quis viverra mi. Aenean quis massa pretium, ullamcorper nisi eget, hendrerit odio.
+Descubre los servicios que los Kuates le ofrecen a tu startup o empresa.
