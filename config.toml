@@ -87,3 +87,7 @@ title = "Kuates"
   #   name = "Contacto"
   #   url = "/contact/"
   #   weight = 2
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
