@@ -57,15 +57,20 @@ title = "Kuates"
 
 [menu]
   # Main Menu
-  # [[menu.main]]
-  #   name = "Servicios"
-  #   url = "/services/"
-  #   weight = 1
+  [[menu.main]]
+    name = "Servicios"
+    url = "/services/"
+    weight = 1
 
   [[menu.main]]
     name = "Nosotros"
     url = "/team/"
     weight = 2
+
+  [[menu.main]]
+    name = "Portafolio"
+    url = "/portfolio/"
+    weight = 3
 
   # [[menu.main]]
   #   name = "Contacto"
