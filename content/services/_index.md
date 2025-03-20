@@ -9,3 +9,5 @@ intro_image_hide_on_mobile: false
 # Nuestros servicios
 
 Descubre los servicios que los Kuates le ofrecen a tu startup o empresa.
+
+{{<contact_form>}}

@@ -1,7 +1,10 @@
 ---
-title: 'Contact'
+title: 'Contacto'
 date: 2018-02-22T17:01:34+07:00
-layout: contact
+# layout: contact
 ---
 
 [hola@kuates.com](mailto:hola@kuates.com)
+
+{{<contact_form>}}
+{{<open_contact_form>}}

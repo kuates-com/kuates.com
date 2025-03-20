@@ -1,0 +1,68 @@
+<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+<script>
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+  formbutton("create", {
+    action: "https://formspree.io/f/xyzeknbz",
+    title: "👋 Hablemos",
+    description: "Déjanos tus datos y nos pondremos en contacto contigo.",
+    fields: [
+    {
+        type: "text",
+        label: "Nombre:",
+        name: "name",
+        required: true,
+        placeholder: "Tu nombre"
+      },
+      {
+        type: "email",
+        label: "Correo electrónico:",
+        name: "email",
+        required: true,
+        placeholder: "tu@email.com"
+      },
+      {
+        type: "textarea",
+        label: "Message:",
+        name: "message",
+        placeholder: "¿Nos quieres ir contando algo sobre tu proyecto?",
+      },
+      { type: "submit" }
+    ],
+    styles: {
+      fontFamily:'Source Sans Pro, Helvetica, Arial, sans-serif, -apple-system;',
+      button: {
+        background: "#f24088"
+      },
+      submitInput: {
+        background: "#f24088",
+        color: 'white'
+      },
+      description: {
+        background: "#f24088",
+      },
+      title: {
+        background: "#f24088",
+        letterSpacing: "0.05em",
+        textTransform: "uppercase"
+      }
+    },
+    onResponse: function(ok, setStatus) {
+      if (ok) {
+        setStatus("Recibimos tus datos. Nos pondremos en contacto contigo.");
+      } else {
+        setStatus("<span style='color:red'>Hubo un problema al recibir tus datos. Por favor inténtalo de nuevo</span>");
+      }
+    }
+  });
+
+  const openContactForm = function(e) {
+    if (e) e.preventDefault()
+
+    const formbutton = document.querySelector('#formbutton-button')
+    if (formbutton) {
+      formbutton.click()
+    } else {
+      setTimeout(openContactForm, 500)
+    }
+  }
+</script>
