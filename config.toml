@@ -67,10 +67,10 @@ title = "Kuates"
     url = "/team/"
     weight = 2
 
-  [[menu.main]]
-    name = "Contacto"
-    url = "/contact/"
-    weight = 4
+  # [[menu.main]]
+  #   name = "Contacto"
+  #   url = "/contact/"
+  #   weight = 4
 
   # Footer Menu
   [[menu.footer]]
@@ -79,6 +79,11 @@ title = "Kuates"
     weight = 1
 
   [[menu.footer]]
-    name = "Contacto"
-    url = "/contact/"
-    weight = 2
+    name = "Nosotros"
+    url = "/team/"
+    weight = 1
+
+  # [[menu.footer]]
+  #   name = "Contacto"
+  #   url = "/contact/"
+  #   weight = 2
