@@ -29,5 +29,4 @@ Podemos construir productos de cualquier vertical. Sin embargo, por nuestra expe
 
 # Me interesa
 
-{{<contact_form>}}
 {{<contact_link>}}

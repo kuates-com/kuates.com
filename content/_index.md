@@ -12,5 +12,4 @@ intro_image_hide_on_mobile: true
 
 Tienes un problema valioso por resolver. Construyamos la primera versión de tu solución.
 
-{{<contact_form>}}
 {{<contact_link>}}

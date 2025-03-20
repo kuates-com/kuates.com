@@ -99,5 +99,4 @@ Seamos Kuates y ganemos juntos.
 
 # Me interesa
 
-{{<contact_form>}}
 {{<contact_link>}}
