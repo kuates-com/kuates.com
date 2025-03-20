@@ -31,5 +31,5 @@ Seamos Kuates y ganemos juntos.
 
 # Me interesa
 
-<!-- TODO -->
-CTA
+{{<contact_form>}}
+{{<contact_link>}}

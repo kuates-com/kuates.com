@@ -29,5 +29,5 @@ Podemos construir productos de cualquier vertical. Sin embargo, por nuestra expe
 
 # Me interesa
 
-<!-- TODO -->
-CTA
+{{<contact_form>}}
+{{<contact_link>}}
