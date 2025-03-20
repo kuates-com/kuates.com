@@ -1,0 +1,23 @@
+{{/* Based on theme's layouts/services/summary.html, including categories and link skipping */}}
+<div class="service service-summary">
+  <div class="service-content">
+    <h2 class="service-title">
+      {{ if .Params.skip_link }}
+        {{ .Title }}
+      {{ else }}
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{ end }}
+    </h2>
+    {{ if .Params.categories }}
+      <div class="service-categories mb-1">
+        {{ range .Params.categories }}
+          <span class="button"
+                style="height: 25px; line-height: 25px; padding: 0px 7px; font-size: 9px;">
+            {{ . }}
+          </span>
+        {{ end }}
+      </div>
+    {{ end }}
+    <p>{{ .Summary }}</p>
+  </div>
+</div>
