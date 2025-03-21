@@ -1,7 +1,7 @@
 ---
 title: "SXKM (Seguro x Kilómetro)"
 featured: true
-weight: 2
+weight: 3
 categories:
   - insurtech
   - mvp

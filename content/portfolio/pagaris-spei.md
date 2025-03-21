@@ -1,7 +1,7 @@
 ---
 title: "Pagaris - SPEI"
 featured: true
-weight: 3
+weight: 4
 categories:
   - fintech
   - mvp

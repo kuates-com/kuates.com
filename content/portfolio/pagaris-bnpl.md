@@ -10,5 +10,5 @@ sitemap:
   disable: true
 ---
 
-Financiamiento de compras en línea en cualquier comercio en segundos
+Financiamiento de compras en línea en cualquier comercio en segundos, a través de emisión de tarjetas instantánea y un modelo de ML de aprobación de crédito.
 <!--more-->
