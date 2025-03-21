@@ -58,6 +58,15 @@
   const openContactForm = function(e) {
     if (e) e.preventDefault()
 
+    if (window.dataLayer) {
+      dataLayer.push({
+        event: 'open_contact_form',
+        eventCategory: 'Contact',
+        eventAction: 'open',
+        eventLabel: 'Contact form opened'
+      })
+    }
+
     const formbutton = document.querySelector('#formbutton-button')
     if (formbutton) {
       formbutton.click()
