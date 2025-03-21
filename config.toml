@@ -101,7 +101,7 @@ title = "Kuates"
   [[menu.footer]]
     name = "Aviso de Privacidad"
     url = "/privacy-policy/"
-    weight = 3
+    weight = 4
 
 [caches]
   [caches.images]
