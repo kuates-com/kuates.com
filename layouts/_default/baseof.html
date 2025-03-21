@@ -18,6 +18,7 @@
     {{ $style = $style | minify | fingerprint }}
   {{ end }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+  <link rel="stylesheet" href="/stylesheets/style.css">
 
   {{ block "header_css" . }}{{ end }}
 
